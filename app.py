@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from werkzeug.contrib.profiler import ProfilerMiddleware
+from werkzeug.middleware.profiler import ProfilerMiddleware
 import os
 import time
 from flask_cors import CORS
